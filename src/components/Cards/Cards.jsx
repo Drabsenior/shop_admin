@@ -16,7 +16,7 @@ const Cards = () => {
               barValue={card.barValue}
               value={card.value}
               png={card.png}
-              series={card.series}
+              // series={card.series}
             />
           </div>
         );

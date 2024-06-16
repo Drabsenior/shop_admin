@@ -20,26 +20,63 @@ import img3 from "../imgs/img3.png";
 // Sidebar Data
 export const SidebarData = [
   {
+    id: 1,
     icon: UilEstate,
     heading: "Dashboard",
+    path: "/",
   },
   {
+    id: 2,
     icon: UilClipboardAlt,
     heading: "Orders",
+    path: "/orders",
   },
   {
+    id: 3,
     icon: UilUsersAlt,
     heading: "Customers",
+    path: "/customers",
   },
   {
+    id: 4,
     icon: UilPackage,
-    heading: 'Products'
+    heading: "Products",
+    path: "/products",
   },
   {
+    id: 5,
     icon: UilChart,
-    heading: 'Analytics'
+    heading: "Analytics",
+    path: "/analytics",
   },
 ];
+// export const SidebarData = [
+//   {
+//     id: 1,
+//     icon: UilEstate,
+//     heading: "Dashboard",
+//   },
+//   {
+//     id: 2,
+//     icon: UilClipboardAlt,
+//     heading: "Orders",
+//   },
+//   {
+//     id: 3,
+//     icon: UilUsersAlt,
+//     heading: "Customers",
+//   },
+//   {
+//     id: 4,
+//     icon: UilPackage,
+//     heading: "Products",
+//   },
+//   {
+//     id: 5,
+//     icon: UilChart,
+//     heading: "Analytics",
+//   },
+// ];
 
 // Analytics Cards Data
 export const cardsData = [
